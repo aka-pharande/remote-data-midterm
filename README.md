@@ -1,18 +1,18 @@
-# Flask REST API Demo
+# Flask REST API for Student Management
 
-project demonstrates a simple REST API built with Python's Flask framework. The API performs CRUD (Create, Read, Update, Delete) operations on user data, which can be tested locally and deployed to Azure App Service for cloud hosting.
+This project demonstrates a REST API for managing student data, built with Python’s Flask framework. It supports CRUD (Create, Read, Update, Delete) operations for student records. The API can be tested locally and deployed to Azure App Service for cloud hosting.
 
 ## Features
 
-- Retrieve all users
-- Retrieve a specific user by ID
-- Create a new user
-- Update an existing user
-- Delete a user
+- Retrieve all student records
+- Retrieve a specific student record by ID
+- Add a new student record
+- Update an existing student record
+- Delete a student record
 
 ## Prerequisites
 
-Before you can run or deploy this app, you need to have the following installed:
+Ensure the following are installed before running or deploying this app:
 
 - Python 3.x
 - pip (Python package manager)
@@ -34,7 +34,7 @@ To run the Flask API on your local machine:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/ramymohamed10/rest-api-demo.git
+   git clone https://github.com/aka-pharande/remote-data-midterm.git
    
 2. Navigate to the project directory:
    ```bash
